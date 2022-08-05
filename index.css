@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;500&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+    height: 310vh;
+    margin: 0;
+
+}
+.Newspaper{
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    padding: 10px;
+    width: 90%;
+
+}
+.Name{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    font-family: 'Fondamento'; cursive;
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 6px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+.maintitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin: 4px 0 0;
+    text-transform: uppercase;
+}
+.maincontent{
+    display: flex;
+}
+.maincontent .left-side{
+    margin-right: 10px;
+    width: 50%;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 4px 0 0;
+    padding: 0 10px;
+    font-size: 27px;
+}
+.maincontent .left-side div {
+    display: flex;
+}
+  
+.maincontent .left-side div p:first-child {
+    margin-right: 10px;
+}
+  
+.maincontent .left-side div p {
+    font-size: 22px;
+}
+  
+.maincontent .right-side {
+    width: 50%;
+}
+  
+.maincontent .right-side img {
+    transform: rotate(-1deg);
+    width: 100%;
+}
+img {
+    -webkit-filter: grayscale(1); 
+    filter: gray; 
+    filter: grayscale(1);
+
+}
+  
+.maincontent .right-side p {
+    font-size: 22px;
+}
+.secundarycontent{
+    display: flex;
+}
+.secundarycontent .right-side-sc {
+    width: 33%;
+    font-size: 22px;
+}
+.secundarycontent .right-side-sc img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+} 
+.secundarycontent .center-side-sc {
+    width: 33%;
+    margin-right: 10px;
+    font-size: 22px;
+}   
+.secundarycontent .center-side-sc img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+}    
+.secundarycontent .left-side-sc {
+    width: 33%;
+    margin-right: 10px;
+    font-size: 22px;
+}   
+.secundarycontent .left-side-sc img {
+    transform: rotate(-1deg);
+    width: 95%;
+    margin-top: 10px;
+} 
